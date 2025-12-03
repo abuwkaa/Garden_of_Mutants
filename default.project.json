@@ -1,0 +1,70 @@
+{
+    "name": "PetGardenPvP",
+    "globIgnorePaths": ["**/*.spec.luau", "**/*.story.luau"],
+    "tree": {
+        "$className": "DataModel",
+        "ReplicatedFirst": {
+            "$className": "ReplicatedFirst",
+            "$ignoreUnknownInstances": true
+        },
+        "ReplicatedStorage": {
+            "$className": "ReplicatedStorage",
+            "$ignoreUnknownInstances": true,
+            "Shared": {
+                "$path": "src/shared"
+            },
+            "Packages": {
+                "$path": "Packages"
+            }
+        },
+        "ServerScriptService": {
+            "$className": "ServerScriptService",
+            "$ignoreUnknownInstances": true,
+            "Server": {
+                "$path": "src/server"
+            }
+        },
+        "ServerStorage": {
+            "$className": "ServerStorage",
+            "$ignoreUnknownInstances": true
+        },
+        "StarterPlayer": {
+            "$className": "StarterPlayer",
+            "StarterPlayerScripts": {
+                "$className": "StarterPlayerScripts",
+                "$ignoreUnknownInstances": true,
+                "Client": {
+                    "$path": "src/client"
+                }
+            },
+            "StarterCharacterScripts": {
+                "$className": "StarterCharacterScripts",
+                "$ignoreUnknownInstances": true
+            }
+        },
+        "StarterGui": {
+            "$className": "StarterGui",
+            "$ignoreUnknownInstances": true
+        },
+        "Workspace": {
+            "$className": "Workspace",
+            "$properties": {
+                "Gravity": 196.2
+            },
+            "$ignoreUnknownInstances": true
+        },
+        "Lighting": {
+            "$className": "Lighting",
+            "$properties": {
+                "Technology": "Future",
+                "GlobalShadows": true,
+                "Brightness": 2,
+                "ClockTime": 14
+            }
+        },
+        "SoundService": {
+            "$className": "SoundService",
+            "$ignoreUnknownInstances": true
+        }
+    }
+}

@@ -1,0 +1,14 @@
+*.rbxl
+*.rbxlx
+*.rbxm
+*.rbxmx
+!assets/**/*.rbxm
+!assets/**/*.rbxmx
+Packages/
+!Packages/_Index/
+.vscode/*
+!.vscode/settings.json
+.DS_Store
+Thumbs.db
+sourcemap.json
+*.log
